@@ -1,0 +1,7 @@
+transformers
+torch
+kernels
+accelerate
+bitsandbytes
+safetensors
+tokenizers
