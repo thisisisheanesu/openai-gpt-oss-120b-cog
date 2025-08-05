@@ -1,0 +1,17 @@
+build:
+  gpu: true
+  cuda: "12.1"
+  python_version: "3.11"
+  python_packages:
+    - "transformers"
+    - "torch"
+    - "kernels"
+    - "accelerate"
+    - "bitsandbytes"
+    - "safetensors"
+    - "tokenizers"
+  system_packages:
+    - "git"
+    - "git-lfs"
+
+predict: "predict.py:Predictor"
